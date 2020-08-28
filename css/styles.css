@@ -331,12 +331,6 @@ ul {
 }
 
 /* Footer */
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: var(--second-background-color);
-}
-
 .footer-addr {
   color: var(--accent-color);
   font-family: Roboto, sans-serif;
@@ -382,6 +376,8 @@ ul {
 }
 
 .page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--second-background-color);
 }
 
