@@ -23,7 +23,7 @@ ul {
 }
 
 .container {
-  width: 1200;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -46,13 +46,13 @@ ul {
   vertical-align: top;
 }
 .content-box:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 0px;
 }
 
 /* Стили для index.html */ /* Top line */
 .top-line {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /*padding-top: 24px;
+  padding-bottom: 25px;*/
   align-items: center;
   background-color: var(--accent-color);
   color: var(--accent-color);
@@ -64,6 +64,8 @@ ul {
 
 /* logo */
 .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
   color: var(--black-color);
   text-decoration: none;
@@ -203,6 +205,10 @@ ul {
 .item:not(:last-child) {
   margin-right: 50px;
 }
+.item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 /* Features */
 .features {
@@ -235,6 +241,16 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+
+.features-box {
+  width: calc(1 / 3 (100%- (30px) * 4));
+  margin-bottom: 0px;
+  margin-left: 0;
+  vertical-align: top;
+}
+.features-box:not(:last-child) {
+  margin-right: 30px;
 }
 
 .hidetitle {
@@ -472,6 +488,7 @@ ul {
 
 .projects-list {
   margin: 0;
+  padding-left: 0;
 }
 
 .projects-link {
